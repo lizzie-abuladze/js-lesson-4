@@ -18,9 +18,8 @@ function findMaxNumber(numbers) {
 let checkEvenOdd = (number) => {
     if (number % 2 === 0) {
       return "this number is even";
-    } else {
-      return "this number is odd";
-    }
+    } 
+    return "this number is odd";
   };
   
   let evenOrOdd = checkEvenOdd(7);
