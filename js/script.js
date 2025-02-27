@@ -15,14 +15,15 @@ function findMaxNumber(numbers) {
   let array = findMaxNumber([1, 3, 7, 2, 9, 5]);
   console.log(array)
 //4
-function checkEvenOdd(number) {
+let checkEvenOdd = (number) => {
     if (number % 2 === 0) {
       return "this number is even";
     } else {
       return "this number is odd";
     }
-  }
-  let evenOrOdd = checkEvenOdd(7)
-  console.log(evenOrOdd); 
+  };
+  
+  let evenOrOdd = checkEvenOdd(7);
+  console.log(evenOrOdd);
   
   
